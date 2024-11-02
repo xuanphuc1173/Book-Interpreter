@@ -1,0 +1,92 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Premium Service</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border: none;
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h2>Purchase Premium Service</h2>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Why Choose Premium Service?</h4>
+                        <p class="card-text">Our premium service offers the following benefits for only $30 per month:</p>
+                        <ul>
+                            <li>Priority interpreter search</li>
+                            <li>Special discounts when hiring interpreters</li>
+                            <li>24/7 support</li>
+                            <li>Access to top professional interpreters</li>
+                        </ul>
+                        <hr>
+                        <h4 class="card-title">Payment Information</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="cardNumber">Card Number</label>
+                                <input type="text" class="form-control" id="cardNumber" name="cardNumber" placeholder="Enter card number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="expiryDate">Expiry Date</label>
+                                <input type="month" class="form-control" id="expiryDate" name="expiryDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cvv">Security Code (CVV)</label>
+                                <input type="text" class="form-control" id="cvv" name="cvv" placeholder="Enter security code" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <select class="form-control" id="country" name="country" required>
+                                    <option value="VN">Vietnam</option>
+                                    <option value="US">United States</option>
+                                    <option value="JP">Japan</option>
+                                    <!-- Add more countries as needed -->
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Confirm Payment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,2013 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EXE.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EXE.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\leadmark.css",
+      "PackagePath": "staticwebassets\\css\\leadmark.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\material-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\material-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\material-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\css\\site2.css",
+      "PackagePath": "staticwebassets\\css\\site2.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\370681-PBPNVG-337.jpg",
+      "PackagePath": "staticwebassets\\imgs\\370681-PBPNVG-337.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\4.5Remove-bg.ai_1720793533356.png",
+      "PackagePath": "staticwebassets\\imgs\\4.5Remove-bg.ai_1720793533356.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\Interpreter1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Interpreter1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\Interpreter2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Interpreter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\Interpreter3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Interpreter3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\Interpreter4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Interpreter4.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\Interpreter5.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Interpreter5.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\Remove-bg.ai_1720793197231.png",
+      "PackagePath": "staticwebassets\\imgs\\Remove-bg.ai_1720793197231.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\about-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\about-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\about-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\about-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\about.jpg",
+      "PackagePath": "staticwebassets\\imgs\\about.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\advertising-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\advertising-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\advertising-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\advertising-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\advertising-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\advertising-3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\advertising-4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\advertising-4.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\ava-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\ava-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\ava-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\ava-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\ava-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\ava-3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\avatar.jpg",
+      "PackagePath": "staticwebassets\\imgs\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\branding-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\branding-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\branding-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\branding-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\branding-3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\branding-4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\branding-4.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\branding-5.jpg",
+      "PackagePath": "staticwebassets\\imgs\\branding-5.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\chatbox.png",
+      "PackagePath": "staticwebassets\\imgs\\chatbox.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\facebook.png",
+      "PackagePath": "staticwebassets\\imgs\\facebook.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\google.jpg",
+      "PackagePath": "staticwebassets\\imgs\\google.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\header.jpg",
+      "PackagePath": "staticwebassets\\imgs\\header.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\icons\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\imgs\\icons\\flags\\AU.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\icons\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\imgs\\icons\\flags\\BR.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\icons\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\imgs\\icons\\flags\\DE.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\icons\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\imgs\\icons\\flags\\GB.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\icons\\flags\\US.png",
+      "PackagePath": "staticwebassets\\imgs\\icons\\flags\\US.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\interpreter.jpg",
+      "PackagePath": "staticwebassets\\imgs\\interpreter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\logo.svg",
+      "PackagePath": "staticwebassets\\imgs\\logo.svg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\logoEXE-v2-removebg-preview.png",
+      "PackagePath": "staticwebassets\\imgs\\logoEXE-v2-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\logoEXE.jpg",
+      "PackagePath": "staticwebassets\\imgs\\logoEXE.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\logoEXE.png",
+      "PackagePath": "staticwebassets\\imgs\\logoEXE.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\messenger.png",
+      "PackagePath": "staticwebassets\\imgs\\messenger.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\section.jpg",
+      "PackagePath": "staticwebassets\\imgs\\section.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\0.5sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\0.5sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\1.5sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\1.5sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\1sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\1sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\2.5sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\2.5sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\2sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\2sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\3.5sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\3.5sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\3sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\3sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\4.5sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\4.5sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\4sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\4sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\star\\5sao.png",
+      "PackagePath": "staticwebassets\\imgs\\star\\5sao.png"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\web-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\web-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\web-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\web-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\web-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\web-3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\imgs\\web-4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\web-4.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\leadmark.js",
+      "PackagePath": "staticwebassets\\js\\leadmark.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\material-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\material-dashboard.js.map",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\material-dashboard.min.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\plugins\\countup.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\countup.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\plugins\\world.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\world.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\js\\site2.js",
+      "PackagePath": "staticwebassets\\js\\site2.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\abstracts\\_animation.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\_animation.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\abstracts\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\abstracts\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\_variables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_typography.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_alert.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_button.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_button.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_code.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_dropdowns.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_form.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_form.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_media-object.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_media-object.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_mouse.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_mouse.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_progressbar.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_progressbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_scrollbar.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_scrollbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\components\\_table.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_table.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_footer.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_header.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\layout\\_sections.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_sections.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\leadmark.scss",
+      "PackagePath": "staticwebassets\\scss\\leadmark.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_header.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_icons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_icons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_ripple.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\cards\\card-rotate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-rotate.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\mixins\\_vendor.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_vendor.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\theme.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_ripple.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_badge.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_card.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_close.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_code.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_forms.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_functions.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_grid.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_images.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_media.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_modal.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_nav.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_popover.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_print.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_progress.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_root.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_tables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_type.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\_variables.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\scss\\vendors\\bootstrap-4.3.1\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors\\bootstrap-4.3.1\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\021bc513-5c7f-46fe-8204-b4a935553152_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\021bc513-5c7f-46fe-8204-b4a935553152_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\142988d6-d983-47b1-afb4-e5fb9c967f47_news1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\142988d6-d983-47b1-afb4-e5fb9c967f47_news1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\147c1762-9c4d-42fe-b57a-5483d5be2fdd_12PM1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\147c1762-9c4d-42fe-b57a-5483d5be2fdd_12PM1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\15c35990-daa6-44b3-8b0f-5f75a7d3bca7_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\15c35990-daa6-44b3-8b0f-5f75a7d3bca7_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\20a3aa21-3b22-4299-a441-021b4650cf45_news2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\20a3aa21-3b22-4299-a441-021b4650cf45_news2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\2ad6e670-9821-4df2-8125-68aaa6c463b3_news1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2ad6e670-9821-4df2-8125-68aaa6c463b3_news1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\31cb7f9e-ccca-4fc1-a17a-f3dc4121dd0c_news1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\31cb7f9e-ccca-4fc1-a17a-f3dc4121dd0c_news1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\33063877-483b-4ed8-b76d-6f1cac3ccb4e_12PM1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\33063877-483b-4ed8-b76d-6f1cac3ccb4e_12PM1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\3397cd60-4c8e-48d6-8549-7c58fd7f3b06_news2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3397cd60-4c8e-48d6-8549-7c58fd7f3b06_news2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\33ac932a-3cad-4755-9efa-382974f9d709_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\33ac932a-3cad-4755-9efa-382974f9d709_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\3c481082-0f89-4185-8998-bac20168c282_news3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3c481082-0f89-4185-8998-bac20168c282_news3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\3ecc6c0c-ee6a-4f59-8825-0f4f4cbae059_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3ecc6c0c-ee6a-4f59-8825-0f4f4cbae059_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\3ef456db-24ad-4349-b449-af0278d40608_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3ef456db-24ad-4349-b449-af0278d40608_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\4113c5e7-d64b-4894-9f6a-2e8bd10657fa_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4113c5e7-d64b-4894-9f6a-2e8bd10657fa_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\5196bbe2-2d44-4927-a536-62f75f0422b1_iphone-12-trang-13-600x600-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5196bbe2-2d44-4927-a536-62f75f0422b1_iphone-12-trang-13-600x600-1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\7fe190aa-a61b-4848-9764-2161bea22065_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7fe190aa-a61b-4848-9764-2161bea22065_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\80bc7378-0a4c-4e7c-ae2d-3418078ad915_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\80bc7378-0a4c-4e7c-ae2d-3418078ad915_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\8245f8a5-a5bb-446a-b8fb-a92c9f6f377f_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8245f8a5-a5bb-446a-b8fb-a92c9f6f377f_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\84aa60de-485d-4ca3-8bf1-63a1e98c35f4_463717898_122114301452538207_1847662432126822874_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\84aa60de-485d-4ca3-8bf1-63a1e98c35f4_463717898_122114301452538207_1847662432126822874_n.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\921b872d-d876-4a79-86fc-a7c309d42039_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\921b872d-d876-4a79-86fc-a7c309d42039_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\94dbc5c4-f5cc-4cc6-9154-17b0310b10e5_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\94dbc5c4-f5cc-4cc6-9154-17b0310b10e5_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\9dad8845-c3c2-4049-b28b-e3264a62824f_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9dad8845-c3c2-4049-b28b-e3264a62824f_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\a01ddd29-3337-492b-ba06-d152a5ccc643_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a01ddd29-3337-492b-ba06-d152a5ccc643_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\a292dd53-d424-4ada-9dca-83a9b7109763_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a292dd53-d424-4ada-9dca-83a9b7109763_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\b62586e1-515b-472c-82aa-b3276c7190b6_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b62586e1-515b-472c-82aa-b3276c7190b6_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\ba951e89-c8eb-4064-88cc-80cfbb7554b1_12PM1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ba951e89-c8eb-4064-88cc-80cfbb7554b1_12PM1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\bb581db7-4eee-4bfb-99d9-5d21bad6731c_interperter-la-gi-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bb581db7-4eee-4bfb-99d9-5d21bad6731c_interperter-la-gi-3.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\c2e7d264-f0d5-4834-bd52-d085b86e1579_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c2e7d264-f0d5-4834-bd52-d085b86e1579_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\c3bd0121-78f5-41c3-b64a-4b8fe5694534_interperter-la-gi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c3bd0121-78f5-41c3-b64a-4b8fe5694534_interperter-la-gi.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\c7683cb4-34a0-4b26-a1f3-4d93975041e7_interperter-la-gi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c7683cb4-34a0-4b26-a1f3-4d93975041e7_interperter-la-gi.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\c971bbd8-3d17-4d4d-9e5c-8d62aae6cb31_12PM1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c971bbd8-3d17-4d4d-9e5c-8d62aae6cb31_12PM1.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\cdffc159-f3fc-4419-8c33-8b6618dd2e25_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cdffc159-f3fc-4419-8c33-8b6618dd2e25_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\ceddf0be-6edd-439d-a599-87049490c0d4_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ceddf0be-6edd-439d-a599-87049490c0d4_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\d8338f9d-c1a4-4c34-af50-555b68af6792_464582030_122116781336538207_4843238976212607603_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d8338f9d-c1a4-4c34-af50-555b68af6792_464582030_122116781336538207_4843238976212607603_n.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\daf3a521-2a82-466e-b22a-426a2ae74a9b_interperter-la-gi-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\daf3a521-2a82-466e-b22a-426a2ae74a9b_interperter-la-gi-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\dbe5bfc9-4825-4f68-a67b-b3a4044fd9ef_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\dbe5bfc9-4825-4f68-a67b-b3a4044fd9ef_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\ddf953a5-8622-445a-849c-09b28c6e6e84_news2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ddf953a5-8622-445a-849c-09b28c6e6e84_news2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\ea829593-d0f8-43fa-b65c-5d11265e453d_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ea829593-d0f8-43fa-b65c-5d11265e453d_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\ed4c3113-2d09-4f88-9f58-da7e05ddb06a_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ed4c3113-2d09-4f88-9f58-da7e05ddb06a_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\f03c8fe6-cd6f-401c-9b4d-9aac3df418bb_news4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f03c8fe6-cd6f-401c-9b4d-9aac3df418bb_news4.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\f294f25b-8ee6-4195-bf05-8d4305a00c91_interperter2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f294f25b-8ee6-4195-bf05-8d4305a00c91_interperter2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\fdfc017c-0b50-4bdf-bcbd-49b30e3f3fc4_interperter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fdfc017c-0b50-4bdf-bcbd-49b30e3f3fc4_interperter.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\uploads\\interperter-la-gi-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\interperter-la-gi-2.jpg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.affix.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.affix.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\bootstrap\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\isotope\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendors\\isotope\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendors\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\jquery\\jquery-3.4.1.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery-3.4.1.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\jquery\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\jquery\\jquery-3.4.1.min.map",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery-3.4.1.min.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\jquery\\jquery-3.4.1.slim.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery-3.4.1.slim.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\jquery\\jquery-3.4.1.slim.min.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery-3.4.1.slim.min.js"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\jquery\\jquery-3.4.1.slim.min.map",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery-3.4.1.slim.min.map"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\themify-icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\vendors\\themify-icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\vendors\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\vendors\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\vendors\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\vendors\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\vendors\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\FPT\\chuyên nghành 7\\1_PRN221\\1_PRN221\\test\\EXE101\\EXE\\wwwroot\\visitors.log",
+      "PackagePath": "staticwebassets\\visitors.log"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EXE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EXE.props",
+      "PackagePath": "build\\EXE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EXE.props",
+      "PackagePath": "buildMultiTargeting\\EXE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EXE.props",
+      "PackagePath": "buildTransitive\\EXE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,251 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EXE
+build_property.RootNamespace = EXE
+build_property.ProjectDir = D:\FPT\chuyên nghành 7\1_PRN221\1_PRN221\test\EXE101\EXE\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\FPT\chuyên nghành 7\1_PRN221\1_PRN221\test\EXE101\EXE
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/AccountManage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjb3VudE1hbmFnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/AccountManage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjb3VudE1hbmFnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/AccountManage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjb3VudE1hbmFnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/AccountManage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjb3VudE1hbmFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/AccountManage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjb3VudE1hbmFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/AdminHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Ib21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/Billing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmlsbGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BlogManage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZ01hbmFnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BlogManage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZ01hbmFnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BlogManage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZ01hbmFnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BlogManage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZ01hbmFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BlogManage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZ01hbmFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BookingManage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9va2luZ01hbmFnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BookingManage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9va2luZ01hbmFnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/BookingManage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9va2luZ01hbmFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/Chatbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhdGJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/InterpreterManage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW50ZXJwcmV0ZXJNYW5hZ2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/InterpreterManage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW50ZXJwcmV0ZXJNYW5hZ2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/InterpreterManage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW50ZXJwcmV0ZXJNYW5hZ2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/InterpreterManage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW50ZXJwcmV0ZXJNYW5hZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/InterpreterManage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW50ZXJwcmV0ZXJNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTm90aWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/ReviewManage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3TWFuYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/ReviewManage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3TWFuYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/ReviewManage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3TWFuYWdlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/ReviewManage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3TWFuYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/ReviewManage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3TWFuYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/RTL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUlRMLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Admin/VirtualReality.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlydHVhbFJlYWxpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Booking/PaymentFail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xQYXltZW50RmFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Booking/PaymentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xQYXltZW50U3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/ChangePassword/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlUGFzc3dvcmRcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/EditProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdFByb2ZpbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Interpreters/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJwcmV0ZXJzXENhbGVuZGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Interpreters/DetailsInterpreter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJwcmV0ZXJzXERldGFpbHNJbnRlcnByZXRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Interpreters/SearchAvailability.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJwcmV0ZXJzXFNlYXJjaEF2YWlsYWJpbGl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Interpreters/ShowSearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJwcmV0ZXJzXFNob3dTZWFyY2hSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/BlogDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCbG9nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/CreateReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVSZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/Detailinterpreter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxpbnRlcnByZXRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/Pay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/Premium.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcmVtaXVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/User/Searchinterpreter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZWFyY2hpbnRlcnByZXRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT/chuyên nghành 7/1_PRN221/1_PRN221/test/EXE101/EXE/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r1ar2i3vu0

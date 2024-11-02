@@ -1,0 +1,421 @@
+﻿@{
+    var userName = Context.Session.GetString("UserName"); // Lấy tên từ session
+}
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <title>Intercom</title>
+    <link rel="shortcut icon" type="image/png" href="/imgs/logoEXE-v2-removebg-preview.png" />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+    <!-- Nucleo Icons -->
+    <link href="/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- CSS Files -->
+    <link id="pagestyle" href="/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
+    <!-- Nepcha Analytics (nepcha.com) -->
+    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+
+</head>
+
+<body class="g-sidenav-show  bg-gray-200">
+    <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
+        <div class="sidenav-header">
+            <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+            <a class="navbar-brand m-0" asp-controller="Admin" asp-action="AdminHome">
+                <img src="/imgs/logoEXE-v2-removebg-preview.png" class="navbar-brand-img h-100" alt="main_logo">
+                <span class="ms-1 font-weight-bold text-white">Admin</span>
+            </a>
+        </div>
+        <hr class="horizontal light mt-0 mb-2">
+        <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Admin" asp-action="AdminHome">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="material-icons opacity-10">dashboard</i>
+                        </div>
+                        <span class="nav-link-text ms-1">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Admin" asp-action="Table">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="material-icons opacity-10">table_view</i>
+                        </div>
+                        <span class="nav-link-text ms-1">Tables</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Interpreters" asp-action="Index">
+
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Interpreters</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Account" asp-action="Index">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Account</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Booking" asp-action="Index">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="material-icons opacity-10">receipt_long</i>
+                        </div>
+                        <span class="nav-link-text ms-1">Booking</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Blog" asp-action="Index">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="fa-regular fa-newspaper"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Blog</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Review" asp-action="Index">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="fa-regular fa-comment"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Review</span>
+                    </a>
+                </li>
+                                
+                <li class="nav-item">
+                    <a class="nav-link text-white active bg-gradient-primary" asp-controller="Admin" asp-action="Chatbox">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Chat Box</span>
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link text-white " asp-controller="Admin" asp-action="Notification">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="material-icons opacity-10">notifications</i>
+                        </div>
+                        <span class="nav-link-text ms-1">Notifications</span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="sidenav-footer position-absolute w-100 bottom-0 ">
+            <div class="mx-3">
+                <a class="btn bg-gradient-primary w-100" asp-controller="Account" asp-action="Logout">Logout</a>
+            </div>
+        </div>
+    </aside>
+        <!-- End Navbar -->
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ps ps--active-y">
+        <h2>Admin Chat</h2>
+        <div id="chatContainer"></div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.7/signalr.min.js"></script>
+        <script>
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("/chathub")
+                .build();
+
+            // Đối tượng để lưu trữ các chat box
+            const chatBoxes = {};
+
+            // Bắt đầu kết nối
+            connection.start().then(() => {
+                connection.invoke("JoinAdminChat"); // Tham gia nhóm chat của admin
+                loadAllChatBoxes(); // Tải tất cả chat box từ localStorage khi kết nối
+            }).catch(err => console.error(err));
+
+            // Nhận tin nhắn từ server
+            connection.on("ReceiveMessage", (user, message) => {
+                // Kiểm tra xem chat box cho user đã tồn tại chưa
+                if (!chatBoxes[user]) {
+                    createChatBox(user);
+                }
+                let messageType = "user-message"; // Mặc định là tin nhắn từ user
+
+                // Kiểm tra xem tin nhắn có bắt đầu bằng "Admin: " không
+                if (message.startsWith("Admin: ")) {
+                    messageType = "admin-message"; // Gán là tin nhắn từ admin
+                    message = message.replace("Admin: ", ""); // Xóa "Admin: " khỏi tin nhắn
+                }
+                // Cập nhật tin nhắn cho chat box tương ứng
+                updateChatBoxMessages(user, message, messageType);
+                saveMessagesToStorage(user, message); // Lưu tin nhắn vào localStorage
+            });
+
+            // Lưu tin nhắn vào localStorage
+            function saveMessagesToStorage(userId, message) {
+                const existingMessages = JSON.parse(localStorage.getItem(userId)) || [];
+                existingMessages.push(message);
+                localStorage.setItem(userId, JSON.stringify(existingMessages));
+            }
+            // Tạo một chat box mới cho user
+            function createChatBox(userId) {
+                const chatBoxDiv = document.createElement("div");
+                chatBoxDiv.classList.add("chat-box");
+                chatBoxDiv.id = `${userId}ChatBox`;
+
+                const chatHeader = document.createElement("div");
+                chatHeader.classList.add("chat-header");
+                chatHeader.innerHTML = `<h5 style=" font-size: 20px; color: white;">${userId} </h5><button class="close-button" onclick="closeChatBox('${userId}')">x</button>`;
+
+                const chatContent = document.createElement("div");
+                chatContent.classList.add("chat-content");
+                chatContent.innerHTML = `<ul id="${userId}-messages"></ul>`;
+
+                const chatFooter = document.createElement("div");
+                chatFooter.classList.add("chat-footer");
+                chatFooter.innerHTML = `<input id="${userId}-messageInput" type="text" placeholder="Enter your message here..." />
+                                                       <button onclick="sendMessage('${userId}')">Send</button>`;
+
+                chatBoxDiv.appendChild(chatHeader);
+                chatBoxDiv.appendChild(chatContent);
+                chatBoxDiv.appendChild(chatFooter);
+
+                document.getElementById("chatContainer").appendChild(chatBoxDiv);
+                chatBoxes[userId] = chatBoxDiv; // Lưu trữ chat box
+
+                // Tải tin nhắn từ localStorage
+                loadMessagesFromStorage(userId);
+            }
+
+            // Tải tin nhắn từ localStorage
+            function loadMessagesFromStorage(userId) {
+                const messages = JSON.parse(localStorage.getItem(userId)) || [];
+                messages.forEach(msg => {
+                    const messageType = msg.startsWith("Admin: ") ? "admin-message" : "user-message";
+                    const messageText = msg.replace("Admin: ", ""); // Xóa "Admin: " nếu có
+                    updateChatBoxMessages(userId, messageText, messageType);
+                });
+            }
+
+            // Tải tất cả chat box từ localStorage
+            function loadAllChatBoxes() {
+                const keys = Object.keys(localStorage);
+                keys.forEach(key => {
+                    createChatBox(key); // Tạo chat box cho mỗi userId trong localStorage
+                });
+            }
+
+            // Cập nhật tin nhắn cho chat box tương ứng
+            function updateChatBoxMessages(userId, message, messageType) {
+                const messagesDiv = document.getElementById(`${userId}-messages`);
+                const msgDiv = document.createElement("div");
+                msgDiv.textContent = message;
+                msgDiv.classList.add(messageType);
+                messagesDiv.appendChild(msgDiv);
+            }
+
+            // Gửi tin nhắn khi nhấn nút Send
+            function sendMessage(userId) {
+                const message = document.getElementById(`${userId}-messageInput`).value;
+                if (message.trim() !== "") { // Kiểm tra xem tin nhắn không rỗng
+                    const formattedMessage = `Admin: ${message}`;
+                    connection.invoke("SendMessage", userId, formattedMessage);
+                    document.getElementById(`${userId}-messageInput`).value = ""; // Xóa input sau khi gửi
+                }
+            }
+
+            // Đóng chat box
+            function closeChatBox(userId) {
+                const chatBox = chatBoxes[userId];
+                if (chatBox) {
+                    chatBox.remove(); // Xóa chat box khỏi DOM
+                    delete chatBoxes[userId]; // Xóa khỏi đối tượng chatBoxes
+                    localStorage.removeItem(userId); // Xóa tin nhắn khỏi localStorage nếu cần
+                }
+            }
+        </script>
+
+
+    </main>
+
+
+
+
+   
+
+ 
+
+
+
+
+
+        <style>
+        #chatContainer {
+            display: flex;
+            flex-direction: row; /* Sắp xếp theo chiều ngang */
+            flex-wrap: wrap; /* Cho phép các chat box xuống hàng nếu không đủ chỗ */
+            gap: 10px; /* Khoảng cách giữa các chat box */
+            height: 655px;
+            overflow-y: auto; /* Cuộn khi nội dung vượt quá chiều cao */
+
+        }
+        ul {
+            list-style-type: none;
+        }
+
+        .admin-message {
+            text-align: right;
+            background-color: #e6e6e6;
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 80%;
+            align-self: flex-start;
+            margin-left: 58px;
+            margin-bottom: 5px;
+        }
+
+        /* Thiết lập cho tin nhắn của user */
+        .user-message {
+            text-align: right;
+            background-color: #0084ff;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 80%;
+            align-self: flex-end;
+            margin-left: -35px;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+            .messenger-button {
+                position: fixed;
+                z-index: 1000;
+                padding: 0;
+                border-radius: 50%;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            }
+
+            #messengerButton {
+                bottom: 100px; /* Vị trí của chat box */
+                right: 20px;
+            }
+
+            #externalMessengerButton {
+                bottom: 20px; /* Vị trí của Messenger link */
+                right: 20px;
+            }
+
+
+            .chat-box {
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+                width: 300px;
+                height: 400px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                z-index: 2000;
+                border-top-left-radius: 15px; /* Tăng độ tròn góc trái trên */
+                border-top-right-radius: 15px; /* Tăng độ tròn góc phải trên */
+            }
+
+            .chat-header {
+                background-color: #244eb3;
+                justify-content:space-between;
+                color: white;
+                padding: 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                display: flex;
+                align-items: center;
+                border-top-left-radius: 15px; /* Tăng độ tròn góc trái trên */
+                border-top-right-radius: 15px; /* Tăng độ tròn góc phải trên */
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+
+            .chat-content {
+                padding: 10px;
+                height: 295px;
+                overflow-y: auto; /* Cuộn khi có nhiều tin nhắn */
+            }
+
+            .chat-footer {
+                display: flex;
+                padding: 5px;
+            }
+
+                .chat-footer input {
+                    flex: 1;
+                    padding: 5px;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+
+                .chat-footer button {
+                    padding: 5px 10px;
+                    margin-left: 5px;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+
+            .close-button {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                width: 30px;
+                height: 30px;
+                position:relative;
+            }
+
+            .messenger-icon {
+                width: 70px;
+                height: 70px;
+            }
+        </style>     
+    <!--   Core JS Files   -->
+    <script src="/js/core/popper.min.js"></script>
+    <script src="/js/core/bootstrap.min.js"></script>
+    <script src="/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="/js/plugins/chartjs.min.js"></script>
+   
+    <script>
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+    <!-- Github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="/js/material-dashboard.min.js?v=3.1.0"></script>
+</body>
+
+</html>

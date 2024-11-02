@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutCompany" xml:space="preserve">
+    <value>About Company</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="All interactions" xml:space="preserve">
+    <value>All interactions on our platform are secure and confidential, giving you peace of mind that your data and conversations are protected.</value>
+  </data>
+  <data name="Allinteractions" xml:space="preserve">
+    <value>All interactions on our platform are secure and confidential, giving you peace of mind that your data and conversations are protected.</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="AtInterpretercom" xml:space="preserve">
+    <value>At Interpretercom, we believe that communication should never be a barrier. That’s why we’ve created a user-friendly platform where clients can easily find and hire certified interpreters with expertise in various industries, including legal, medical, business, and more.</value>
+  </data>
+  <data name="BackHome" xml:space="preserve">
+    <value>Back Home</value>
+  </data>
+  <data name="BookAppointment" xml:space="preserve">
+    <value>Book Appointment</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Corevalues" xml:space="preserve">
+    <value>Core values</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="CulturalRespect" xml:space="preserve">
+    <value>Cultural Respect: Promote respect and cultural understanding in all communication situations.</value>
+  </data>
+  <data name="CustomerCentered" xml:space="preserve">
+    <value>Customer Centered: Always listen and respond to customer needs.</value>
+  </data>
+  <data name="CustomizedSolutions" xml:space="preserve">
+    <value>Customized Solutions</value>
+  </data>
+  <data name="EasyBooking" xml:space="preserve">
+    <value>Easy Booking</value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>Edit Profile</value>
+  </data>
+  <data name="Everyclient" xml:space="preserve">
+    <value>Every client is unique, and so are their interpretation needs. Whether you need a one-time service or ongoing support, we tailor our solutions to your project.</value>
+  </data>
+  <data name="Flexibility" xml:space="preserve">
+    <value>Flexibility and Convenience</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="Fromsmall" xml:space="preserve">
+    <value>From small businesses expanding into new markets to individuals needing help with personal matters, our platform is designed to be flexible, comprehensive, and tailored to the needs of our clients.</value>
+  </data>
+  <data name="LanguageExperts" xml:space="preserve">
+    <value>Language Experts</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Ourmission" xml:space="preserve">
+    <value>Our mission is simple yet powerful: To enable seamless communication across languages and cultures. We strive to remove the challenges that come with language differences by offering interpretation services that meet the highest standards of accuracy, professionalism, and reliability. We are committed to fostering cross-cultural understanding and empowering businesses and individuals to connect with others worldwide.</value>
+  </data>
+  <data name="OurProcess" xml:space="preserve">
+    <value>Our Process</value>
+  </data>
+  <data name="OurService" xml:space="preserve">
+    <value>Our Service</value>
+  </data>
+  <data name="Ourteam" xml:space="preserve">
+    <value>Our team of interpreters consists of language professionals with years of experience and international certifications.</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Searchfor" xml:space="preserve">
+    <value>Search for interpreters by language, location, or specialization. Our platform is designed to make the booking process as simple as possible, with transparent pricing and availability.</value>
+  </data>
+  <data name="Searchinterpreter" xml:space="preserve">
+    <value>Search Interpreter</value>
+  </data>
+  <data name="SecureCommunication" xml:space="preserve">
+    <value>Secure Communication</value>
+  </data>
+  <data name="ServiceQuality" xml:space="preserve">
+    <value>Service Quality: Committed to providing high quality, accurate and professional services.</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="Weaim" xml:space="preserve">
+    <value>We aim to become the leading online hub for professional interpreting services, enabling seamless communication and understanding across all languages and cultures. We strive to deliver high-quality, on-demand services tailored to the unique needs of every client.</value>
+  </data>
+  <data name="Weoffer" xml:space="preserve">
+    <value>We offer interpreter services for a variety of languages, from commonly spoken ones such as English, French, Chinese, and Japanese to less common languages.</value>
+  </data>
+  <data name="WhatOur" xml:space="preserve">
+    <value>What Our CEO Says</value>
+  </data>
+  <data name="WideRange" xml:space="preserve">
+    <value>Wide Range of Languages</value>
+  </data>
+  <data name="Youcan" xml:space="preserve">
+    <value>You can hire interpreters by the hour, by the day, or for a specific project depending on your needs. Our services are available 24/7.</value>
+  </data>
+</root>

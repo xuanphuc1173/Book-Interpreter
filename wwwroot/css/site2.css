@@ -1,0 +1,47 @@
+﻿.custom-alert {
+    position: fixed;
+    top: 100px; /* Khoảng cách từ đỉnh màn hình */
+    right: 20px; /* Khoảng cách từ phải màn hình */
+    z-index: 1050; /* Đảm bảo hiển thị trên các phần tử khác */
+    background: linear-gradient( to right, #0abf3055, #22242f 50% );
+    color: white;
+    width: 300px;
+    max-width: 500px;
+    opacity: 0.9;
+    display: flex;
+}
+
+    .custom-alert i {
+        color: #0abf3055;
+        justify-content: center;
+        align-content: center;
+        margin-right: 20px;
+        margin-left:20px;
+    }
+    /* Hiển thị nút đóng thông báo */
+    .custom-alert .btn-close {
+        padding: 0.5rem;
+        position: absolute;
+        margin-left: 96px;
+        top: 12px;
+    }
+
+.progress-bar2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px; /* Chiều cao của thanh tiến trình */
+    background-color: #28a745; /* Màu thanh tiến trình */
+    width: 100%;
+    animation: progress 5s linear forwards; /* Thời gian chạy là 5 giây */
+}
+
+@keyframes progress {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}

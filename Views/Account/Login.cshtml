@@ -1,0 +1,100 @@
+﻿@model EXE.ViewModels.AccountViewModel
+
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Intercom</title>
+	<link rel="shortcut icon" type="image/png" href="/imgs/logoEXE-v2-removebg-preview.png" />
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+    <link rel="stylesheet" href="/css/Login.css">
+</head>
+<body>
+
+	<div class="login-wrap">
+		<div class="login-html">
+			@if (TempData["SuccessMessage"] != null)
+			{
+				<div class="alert alert-success" style=" font-size: 18px; margin: auto; color: green; padding-left: 47px; margin-bottom: 12px;">
+					@TempData["SuccessMessage"]
+				</div>
+			}
+			<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">@EXE.Resources.Resource.SignIn</label>
+			<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
+			<div class="login-form">
+				<div class="sign-in-htm tab-pane fade @(ViewBag.ActiveTab == "login" ? "show active" : "")" id="login" role="tabpanel">
+					   @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+					{
+						<div class="group">
+							<label for="user" class="label">Email</label>
+							<input id="user" name="Email" type="text" class="input" required>
+						</div>
+						<div class="group">
+							<label for="pass" class="label">@EXE.Resources.Resource.Password</label>
+							<div style="position: relative;">
+								<input id="pass" name="Password" type="password" class="input" required>
+								<i id="togglePassword" class="fa fa-eye" style="    color: black;position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;"></i>
+							</div>
+						</div>
+
+						<script>
+							const togglePassword = document.querySelector('#togglePassword');
+							const password = document.querySelector('#pass');
+
+							togglePassword.addEventListener('click', function () {
+								// Toggle the type attribute
+								const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+								password.setAttribute('type', type);
+
+								// Toggle the icon class
+								this.classList.toggle('fa-eye');
+								this.classList.toggle('fa-eye-slash');
+							});
+						</script>
+
+						@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+						
+						<div class="group">
+							<input  type="submit" class="button" value="Sign In">
+						</div>
+						<a href=" /Account/GoogleLogin" class="btn btn-primary">
+							<img style="  width: 50px; height: 50px; border-radius: 50%;object-fit: cover;margin-left:168px " src="/imgs/google.jpg" />
+						</a>
+@* 						<a href="/Account/FacebookLogin" class="btn btn-primary">
+							<img style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-left:20px " src="/imgs/facebook.png" />
+						</a> *@
+						<div class="hr"></div>
+						<div class="foot-lnk" style="font-size:14px">
+							<a href="#forgot">@EXE.Resources.Resource.ForgotPassword</a>
+						</div>
+						<div class="foot-lnk" style="    margin-top: 10px;font-size: 20px;">
+							<a href="Register" style="color:#1161ee">@EXE.Resources.Resource.CreateAccount</a>
+						</div>
+				
+					}
+				</div>
+				
+			
+			</div>
+			<div style="margin-top: 128px;">
+				<a class="nav-link" asp-action="Home" asp-controller="Home">@EXE.Resources.Resource.BackHome</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+<style>
+	.text-danger {
+		color: #e60000; /* Màu đỏ đậm hơn tuỳ chỉnh */
+	}
+</style>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutCompany" xml:space="preserve">
+    <value>Giới thiệu về công ty</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Về chúng tôi</value>
+  </data>
+  <data name="All interactions" xml:space="preserve">
+    <value>Mọi tương tác trên nền tảng của chúng tôi đều an toàn và bảo mật, giúp bạn an tâm rằng dữ liệu và cuộc trò chuyện của bạn được bảo vệ.</value>
+  </data>
+  <data name="Allinteractions" xml:space="preserve">
+    <value>Mọi tương tác trên nền tảng của chúng tôi đều an toàn và bảo mật, giúp bạn an tâm rằng dữ liệu và cuộc trò chuyện của bạn được bảo vệ.</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>Lịch hẹn</value>
+  </data>
+  <data name="AtInterpretercom" xml:space="preserve">
+    <value>Tại Interpretercom, chúng tôi tin rằng giao tiếp không bao giờ là rào cản. Đó là lý do tại sao chúng tôi tạo ra một nền tảng thân thiện với người dùng, nơi khách hàng có thể dễ dàng tìm và thuê phiên dịch viên được chứng nhận có chuyên môn trong nhiều ngành khác nhau, bao gồm pháp lý, y tế, kinh doanh, v.v.</value>
+  </data>
+  <data name="BackHome" xml:space="preserve">
+    <value>Về trang chủ</value>
+  </data>
+  <data name="BookAppointment" xml:space="preserve">
+    <value>Đặt lịch hẹn</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Đổi mật khẩu</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="Corevalues" xml:space="preserve">
+    <value>Giá trị cốt lõi</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Tạo tài khoản mới</value>
+  </data>
+  <data name="CulturalRespect" xml:space="preserve">
+    <value>Tôn trọng văn hóa: Thúc đẩy sự tôn trọng và hiểu biết văn hóa trong mọi tình huống giao tiếp.</value>
+  </data>
+  <data name="CustomerCentered" xml:space="preserve">
+    <value>Lấy khách hàng làm trung tâm: Luôn lắng nghe và đáp ứng nhu cầu của khách hàng.</value>
+  </data>
+  <data name="CustomizedSolutions" xml:space="preserve">
+    <value>Giải pháp tùy chỉnh</value>
+  </data>
+  <data name="EasyBooking" xml:space="preserve">
+    <value>Đặt chỗ dễ dàng</value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>Hồ sơ cá nhân</value>
+  </data>
+  <data name="Everyclient" xml:space="preserve">
+    <value>Mỗi khách hàng là duy nhất và nhu cầu diễn giải của họ cũng vậy. Cho dù bạn cần dịch vụ một lần hay hỗ trợ liên tục, chúng tôi đều điều chỉnh các giải pháp của mình cho phù hợp với dự án của bạn.</value>
+  </data>
+  <data name="Flexibility" xml:space="preserve">
+    <value>Tính linh hoạt và tiện lợi</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Quên mật khẩu?</value>
+  </data>
+  <data name="Fromsmall" xml:space="preserve">
+    <value>Từ các doanh nghiệp nhỏ mở rộng sang thị trường mới đến những cá nhân cần trợ giúp về các vấn đề cá nhân, nền tảng của chúng tôi được thiết kế linh hoạt, toàn diện và phù hợp với nhu cầu của khách hàng.</value>
+  </data>
+  <data name="LanguageExperts" xml:space="preserve">
+    <value>Chuyên gia ngôn ngữ</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Đăng Nhập</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Bài báo</value>
+  </data>
+  <data name="Ourmission" xml:space="preserve">
+    <value>Sứ mệnh của chúng tôi đơn giản nhưng mạnh mẽ: Cho phép giao tiếp liền mạch giữa các ngôn ngữ và nền văn hóa. Chúng tôi nỗ lực loại bỏ những thách thức đi kèm với sự khác biệt về ngôn ngữ bằng cách cung cấp các dịch vụ phiên dịch đáp ứng các tiêu chuẩn cao nhất về độ chính xác, tính chuyên nghiệp và độ tin cậy. Chúng tôi cam kết thúc đẩy sự hiểu biết xuyên văn hóa và trao quyền cho các doanh nghiệp và cá nhân kết nối với những người khác trên toàn thế giới.</value>
+  </data>
+  <data name="OurProcess" xml:space="preserve">
+    <value>Quy trình của chúng tôi</value>
+  </data>
+  <data name="OurService" xml:space="preserve">
+    <value>Dịch vụ của chúng tôi</value>
+  </data>
+  <data name="Ourteam" xml:space="preserve">
+    <value>Đội ngũ phiên dịch viên của chúng tôi bao gồm các chuyên gia ngôn ngữ có nhiều năm kinh nghiệm và chứng chỉ quốc tế.</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Quá trình</value>
+  </data>
+  <data name="Searchfor" xml:space="preserve">
+    <value>Tìm kiếm phiên dịch viên theo ngôn ngữ, địa điểm hoặc chuyên môn. Nền tảng của chúng tôi được thiết kế để làm cho quá trình đặt chỗ trở nên đơn giản nhất có thể, với giá cả minh bạch và tính khả dụng.</value>
+  </data>
+  <data name="Searchinterpreter" xml:space="preserve">
+    <value>Tìm kiếm Thông dịch viên</value>
+  </data>
+  <data name="SecureCommunication" xml:space="preserve">
+    <value>Giao tiếp an toàn</value>
+  </data>
+  <data name="ServiceQuality" xml:space="preserve">
+    <value>Chất lượng dịch vụ: Cam kết cung cấp dịch vụ chất lượng cao, chính xác và chuyên nghiệp.</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Đăng Nhập</value>
+  </data>
+  <data name="Weaim" xml:space="preserve">
+    <value>Chúng tôi mong muốn trở thành trung tâm trực tuyến hàng đầu cho các dịch vụ phiên dịch chuyên nghiệp, cho phép giao tiếp và hiểu biết liền mạch giữa mọi ngôn ngữ và nền văn hóa. Chúng tôi nỗ lực cung cấp các dịch vụ theo yêu cầu chất lượng cao, phù hợp với nhu cầu riêng biệt của từng khách hàng.</value>
+  </data>
+  <data name="Weoffer" xml:space="preserve">
+    <value>Chúng tôi cung cấp dịch vụ phiên dịch cho nhiều ngôn ngữ, từ những ngôn ngữ thông dụng như tiếng Anh, tiếng Pháp, tiếng Trung và tiếng Nhật cho đến những ngôn ngữ ít phổ biến hơn.</value>
+  </data>
+  <data name="WhatOur" xml:space="preserve">
+    <value>CEO của chúng tôi nói gì</value>
+  </data>
+  <data name="WideRange" xml:space="preserve">
+    <value>Nhiều ngôn ngữ</value>
+  </data>
+  <data name="Youcan" xml:space="preserve">
+    <value>Bạn có thể thuê phiên dịch viên theo giờ, theo ngày hoặc cho một dự án cụ thể tùy theo nhu cầu của bạn. Dịch vụ của chúng tôi phục vụ 24/7.</value>
+  </data>
+</root>

@@ -1,0 +1,352 @@
+﻿@model EXE.ViewModels.CreateBookingViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Intercom</title>
+    <link rel="shortcut icon" type="image/png" href="/imgs/logoEXE-v2-removebg-preview.png" />    <!-- font icons -->
+    <link rel="stylesheet" href="/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+    <link rel="stylesheet" href="/css/leadmark.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Datetimepicker CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Datetimepicker JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/imgs/logoEXE-v2-removebg-preview.png" alt="">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    @if (Context.Session.GetInt32("Role") == 0)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-left:100px" asp-action="Home" asp-controller="Home">@EXE.Resources.Resource.BackHome</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-left:100px" asp-action="BookingsByAccountId" asp-controller="Booking" asp-route-accountId="@((int?)Context.Session.GetInt32("AccountId"))">@EXE.Resources.Resource.Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="SearchAvailability" asp-controller="Interpreters">@EXE.Resources.Resource.BookAppointment </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-left:100px" asp-action="Searchinterpreter" asp-controller="User">@EXE.Resources.Resource.Searchinterpreter</a>
+                        </li>
+                        <li class="nav-item" style="margin-right:100px">
+                            <a class="nav-link"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+
+                            <ul class="sub-menu">
+                                <li>
+                                    <span style="margin-bottom:60px;">Invitation Code:<span style="padding0;display:contents;color:#244eb3"> @ViewBag.InvitationCode</span></span>
+                                </li>
+                                <li>
+                                    <span>Total  Points: <span style="color: green; padding:0;display:contents">@ViewBag.TotalPoints</span></span>
+                                </li>
+                                <li>
+                                    <a asp-controller="EditProfile" asp-action="Index" asp-route-Id="@((int?)Context.Session.GetInt32("AccountId"))">@EXE.Resources.Resource.EditProfile</a>
+                                </li>
+                                <li>
+                                    <a asp-controller="ChangePassword" asp-action="ChangePassword" asp-route-Id="@((int?)Context.Session.GetInt32("AccountId"))">@EXE.Resources.Resource.ChangePassword</a>
+                                </li>
+                                <li>
+                                    <a style="margin-bottom:20px" asp-controller="Account" asp-action="Logout">
+                                        @EXE.Resources.Resource.Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    else if (Context.Session.GetInt32("Role") == 1)
+                    {
+                        <partial name="~/Views/Admin/AdminHome.cshtml" />
+
+                    }
+                    else if (Context.Session.GetInt32("Role") == null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-right:250px" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Account/Login" class="ml-4 nav-link btn btn-primary btn-sm rounded">Login</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Second Navigation -->
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h1 class="subtitle">Intercom</h1>
+            <h1 class="title">Global Conversations</h1>
+        </div>
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z" />
+            </svg>
+        </div>
+        <div class="mouse-icon"><div class="wheel"></div></div>
+    </header>
+    <!-- End Of Page Header -->
+    <!-- Search Form Section -->
+    <section class="section">
+        <div style="display: flex; height: 660px">
+        
+            <div class="card h-150" style="width: 500px; height: 660px; margin:auto; ">
+                <div class="card-body">
+                    <div style="margin:auto">
+                            <form asp-controller="Booking" asp-action="CreateBooking" method="post">
+                            <h2 style="padding-left: 95px;">
+                                Booking Interpreter
+                            </h2>
+                            <input type="hidden" name="interpreterId" value="@Model.InterpreterId" />
+                            <input type="hidden" name="accountId" value="@Model.AccountId" />
+                            <div class="form-group">
+                                <label>Start Time</label>
+                                <input type="datetime-local" name="startTime" value="@Model.StartTime.ToString("yyyy-MM-ddTHH:mm")" class="form-control" required readonly />
+                            </div>
+                            <div class="form-group">
+                                <label>End Time</label>
+                                <input type="datetime-local" name="endTime" value="@Model.EndTime.ToString("yyyy-MM-ddTHH:mm")" class="form-control" required readonly />
+                            </div>
+                            <div class="form-group">
+                                <label>Location</label>
+                                <input type="text" id="location" name="location" value="@Model.Location" class="form-control" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Point</label>
+                                <div class="input-group">
+                                    <input type="text" id="totalPoints" name="totalPoints" value="@Model.TotalPoints" class="form-control" readonly /> <!-- Thêm readonly để không cho phép nhập trực tiếp -->
+                                    <div class="input-group-append">
+                                        <button type="button" id="decreasePoints" class="btn btn-danger">Decrease </button>
+                                        <button type="button" id="increasePoints" class="btn btn-success">Increase </button>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="TotalPoints" class="text-danger"></span> <!-- Hiển thị lỗi nhập điểm -->
+                            </div>
+                            <div class="form-group">
+                                <label style="margin-left:100px">Every 100 points will be reduced by 10%</label>
+                            </div>
+                        <script>
+                                document.addEventListener("DOMContentLoaded", function () {
+                                    const totalPointsInput = document.getElementById("totalPoints");
+
+                                    document.getElementById("decreasePoints").addEventListener("click", function () {
+                                        let currentPoints = parseInt(totalPointsInput.value) || 0;
+                                        totalPointsInput.value = currentPoints - 100;
+                                    });
+
+                                    document.getElementById("increasePoints").addEventListener("click", function () {
+                                        let currentPoints = parseInt(totalPointsInput.value) || 0;
+                                        totalPointsInput.value = currentPoints + 100;
+                                    });
+                                });
+                        </script>
+
+
+
+                            <button style=" width: -webkit-fill-available; margin-bottom: 15px; font-size: 20px;" value="Pay" type="submit" class="btn btn-primary">
+                                <span style="color: red;">VN</span><span style="color: blue;">Pay</span>
+                            </button>
+                        </form>
+
+                      
+
+                        <div id="paypal-button-container" style="max-width:1000px;"></div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
+                        <script>
+                                paypal.Buttons({
+                                    style: {
+                                        disableMaxWidth: true
+                                    },
+                                createOrder: (data, actions) => {
+                                    const location = document.getElementById('location').value; // Lấy giá trị địa điểm
+                                    const totalPoints = document.getElementById('totalPoints').value;
+                                    return fetch("/Booking/create-paypal-order", {
+                                        method: "post",
+                                        headers: {
+                                            'Content-Type': 'application/json'
+                                        },
+                                        body: JSON.stringify({
+                                            interpreterId: parseInt(document.querySelector('input[name="interpreterId"]').value),
+                                            startTime: document.querySelector('input[name="startTime"]').value,
+                                            endTime: document.querySelector('input[name="endTime"]').value,
+                                            location: location,
+                                            totalPoints: totalPoints
+                                        })
+
+                                    }).then((response) => {
+                                        // Kiểm tra nếu phản hồi không phải là 200
+                                        if (!response.ok) {
+                                            // Nếu có lỗi, trả về text để hiển thị chi tiết lỗi
+                                            return response.text().then(errorText => {
+                                                console.error("Error response:", errorText); // In ra lỗi trên console
+                                                throw new Error(errorText); // Ném lỗi để có thể catch ở dưới
+                                            });
+                                        }
+
+                                        // Trả về phản hồi JSON nếu mọi thứ ổn
+                                        return response.json();
+                                    }).then((order) => {
+                                        console.log("Order created:", order);
+                                        return order.id; // Trả về order ID để xử lý tiếp
+                                    }).catch(error => {
+                                        // Hiển thị lỗi nếu có
+                                        alert("Error: " + error.message);
+                                    });
+                                },
+
+
+                                    onApprove: (data, actions) => {
+                                    return fetch(`/Booking/capture-paypal-order?orderId=${data.orderID}`, {
+                                            method: "POST", // Đảm bảo bạn sử dụng đúng method
+                                        }).then((response) => {
+                                            if (!response.ok) {
+                                                return response.json().then(error => { throw error; });
+                                            }
+                                            window.location.href = "/Booking/PaymentSuccess"; // Chuyển hướng thành công
+                                        }).catch(error => alert(error.message));
+                                    }
+                                }).render('#paypal-button-container');
+
+                        </script>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of Search Form Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="section has-img-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 my-3">
+                    <h6 class="mb-0">Phone</h6>
+                    <p class="mb-4"> 0999999999</p>
+
+                    <h6 class="mb-0">Address</h6>
+                    <p class="mb-4">12345</p>
+
+                    <h6 class="mb-0">Email</h6>
+                    <p class="mb-0">intercom@gmail.com</p>
+                    <p></p>
+                </div>
+                <div class="col-md-7">
+                    <form>
+                        <h4 class="mb-4">Drop Us A Line</h4>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
+
+                            </div>
+                            <div class="form-group col-12 mb-0">
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Page Footer -->
+            <footer class="mt-5 py-4 border-top border-secondary">
+                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>,Created By Adam Tran </p>
+            </footer>
+            <!-- End of Page Footer -->
+        </div>
+    </section>
+@*     <script>
+        paypal.Buttons({
+            style: {
+                disableMaxWidth: true
+            },
+            createOrder: (data, actions) => {
+                return fetch("/Cart/create-paypal-order", {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    return response.json();
+                }).then((order) => order.id)
+                    .catch(error => alert(error.message));
+            },
+            onApprove: (data, actions) => {
+                return fetch(`/Cart/capture-paypal-order?orderId=${data.orderID}`, {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    //Đổi địa chỉ tới action thông báo thành công
+                    window.location.href = "/Cart/PaymentSuccess";
+                }).catch(error => alert(error.message));
+            }
+        }).render('#paypal-button-container');
+    </script> *@
+
+
+
+    <!-- core  -->
+    <script src="/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope -->
+    <script src="/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="/js/leadmark.js"></script>
+    
+</body>
+</html>

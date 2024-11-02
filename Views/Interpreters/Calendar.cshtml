@@ -1,0 +1,404 @@
+﻿@model EXE.Models.CalendarAvailability
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn Ngày Giờ Rảnh</title>
+    <!-- FullCalendar CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css' rel='stylesheet' />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+        <a class="nav-link" style="margin-left:100px" asp-action="Home" asp-controller="Home">Back Home</a>
+    </div>
+    <div class="container mt-5">
+        <h1 class="text-center">Interpreter Schedule</h1>
+        <div id='calendar'></div>
+    </div>
+
+    <!-- Modal để chọn giờ rảnh -->
+    <div id="timePickerModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Select Working Time</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="availabilityForm">
+                        <!-- Chọn giờ bắt đầu -->
+                        <div class="form-group">
+                            <label for="startTimeHour">Start time</label>
+                            <div class="row">
+                                <div class="col">
+                                    <select id="startTimeHour" class="form-control">
+                                        <!-- Tạo lựa chọn giờ từ 1 đến 12 -->
+                                        @for (int i = 1; i <= 12; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="startTimeMinute" class="form-control">
+                                        <!-- Tạo lựa chọn phút -->
+                                        <option value="00">00</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="startTimeAmPm" class="form-control">
+                                        <!-- Chọn AM hoặc PM -->
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chọn giờ kết thúc -->
+                        <div class="form-group">
+                            <label for="endTimeHour">End time</label>
+                            <div class="row">
+                                <div class="col">
+                                    <select id="endTimeHour" class="form-control">
+                                        @for (int i = 1; i <= 12; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="endTimeMinute" class="form-control">
+                                        <option value="00">00</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="endTimeAmPm" class="form-control">
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <input type="hidden" id="selectedDate">
+                        <button type="submit" class="btn btn-primary">Lưu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal để hiển thị chi tiết sự kiện -->
+    <div class="modal fade" id="eventDetailModal" tabindex="-1" role="dialog" aria-labelledby="eventDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eventDetailModalLabel">Event Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="eventDetail"></p>
+                </div>
+                <div class="modal-footer">
+                    <!-- Nút Edit -->
+                    <button type="button" class="btn btn-warning" id="editEventBtn">Edit</button>
+                    <!-- Nút Delete -->
+                    <button type="button" class="btn btn-danger" id="deleteEventBtn">Delete</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Edit Sự Kiện -->
+    <div id="editEventModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Working Time</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="editEventForm">
+                        <input type="hidden" id="editEventId">
+
+                        <!-- Chọn giờ bắt đầu -->
+                        <div class="form-group">
+                            <label for="editStartTimeHour">Start Time</label>
+                            <div class="row">
+                                <div class="col">
+                                    <select id="editStartTimeHour" class="form-control">
+                                        @for (int i = 1; i <= 12; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="editStartTimeMinute" class="form-control">
+                                        <option value="00">00</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="editStartTimeAmPm" class="form-control">
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chọn giờ kết thúc -->
+                        <div class="form-group">
+                            <label for="editEndTimeHour">End Time</label>
+                            <div class="row">
+                                <div class="col">
+                                    <select id="editEndTimeHour" class="form-control">
+                                        @for (int i = 1; i <= 12; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="editEndTimeMinute" class="form-control">
+                                        <option value="00">00</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select id="editEndTimeAmPm" class="form-control">
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FullCalendar JS -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js'></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+
+            // Khởi tạo FullCalendar
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth', // Hiển thị lịch theo tháng
+                selectable: true, // Cho phép chọn ngày
+                validRange: {
+                    start: new Date() // Chỉ cho phép chọn từ ngày hiện tại trở đi
+                },
+                events: '/Interpreters/GetAvailability',  // Lấy danh sách ngày rảnh từ server
+
+                select: function (info) { // Sự kiện khi chọn ngày
+                    var selectedDate = info.startStr;
+                    $('#selectedDate').val(selectedDate); // Lưu ngày đã chọn
+                    $('#timePickerModal').modal('show'); // Hiển thị modal để chọn giờ
+                },
+                eventClick: function (info) { // Sự kiện khi nhấp vào sự kiện
+                    var event = info.event;
+
+                    $('#editEventId').val(event.id);
+                    console.log('Event ID:', event.id);
+
+
+                    // Lấy giờ bắt đầu và giờ kết thúc
+                    var startTime = event.start;
+                    var endTime = event.end;
+
+                    // Chuyển đổi giờ bắt đầu và kết thúc sang định dạng 12-hour cho modal
+                    var startHours = startTime.getHours();
+                    var startMinutes = startTime.getMinutes();
+                    var startAmPm = startHours >= 12 ? 'PM' : 'AM';
+                    startHours = startHours % 12 || 12; // Chuyển về định dạng 12-hour
+
+                    var endHours = endTime.getHours();
+                    var endMinutes = endTime.getMinutes();
+                    var endAmPm = endHours >= 12 ? 'PM' : 'AM';
+                    endHours = endHours % 12 || 12;
+
+                    // Điền thông tin vào modal
+                    $('#editStartTimeHour').val(startHours);
+                    $('#editStartTimeMinute').val(startMinutes.toString().padStart(2, '0'));
+                    $('#editStartTimeAmPm').val(startAmPm);
+
+                    $('#editEndTimeHour').val(endHours);
+                    $('#editEndTimeMinute').val(endMinutes.toString().padStart(2, '0'));
+                    $('#editEndTimeAmPm').val(endAmPm);
+
+                    var eventDetail = `${event.title} From ${startTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} To ${endTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+                    $('#eventDetail').text(eventDetail); // Hiển thị thông tin sự kiện
+                    $('#eventDetailModal').modal('show'); // Mở modal hiển thị chi tiết
+                }
+
+            });
+
+            calendar.render(); // Hiển thị lịch
+            // Xử lý nút Edit
+            $('#editEventBtn').on('click', function () {
+                $('#eventDetailModal').modal('hide'); // Đóng modal chi tiết
+                $('#editEventModal').modal('show');   // Mở modal chỉnh sửa
+            });
+
+            // Submit chỉnh sửa sự kiện
+            $('#editEventForm').on('submit', function (event) {
+                event.preventDefault();
+
+                var eventId = $('#editEventId').val();
+                var startTimeHour = $('#editStartTimeHour').val();
+                var startTimeMinute = $('#editStartTimeMinute').val();
+                var startTimeAmPm = $('#editStartTimeAmPm').val();
+                var endTimeHour = $('#editEndTimeHour').val();
+                var endTimeMinute = $('#editEndTimeMinute').val();
+                var endTimeAmPm = $('#editEndTimeAmPm').val();
+
+                // Chuyển đổi giờ sang định dạng 24-hour
+                var startTime = convertTo24Hour(startTimeHour, startTimeMinute, startTimeAmPm);
+                var endTime = convertTo24Hour(endTimeHour, endTimeMinute, endTimeAmPm);
+                console.log('Sending AJAX request with data:', {
+                    id: eventId,
+                    startTime: startTime,
+                    endTime: endTime
+                });
+                // Gửi AJAX đến server để lưu giờ rảnh
+                $.ajax({
+                    url: '/Interpreters/EditAvailability',  // API chỉnh sửa sự kiện
+                    type: 'POST',
+                    data: {
+                        id: eventId,
+                        startTime: startTime,
+                        endTime: endTime
+                    },
+                    success: function (response) {
+                        alert('Updated successfully');
+                        $('#editEventModal').modal('hide');
+                        calendar.refetchEvents();  // Tải lại sự kiện sau khi chỉnh sửa
+                    },
+                    error: function (error) {
+                        alert('Error updating event');
+                    }
+                });
+            });
+
+            // Xử lý nút Delete
+            $('#deleteEventBtn').on('click', function () {
+                var eventId = $('#editEventId').val();
+
+                if (confirm('Are you sure you want to delete?')) {
+                    $.ajax({
+                        url: '/Interpreters/DeleteAvailability', // API xóa sự kiện
+                        type: 'POST',
+                        data: {
+                            id: eventId
+                        },
+                        success: function (response) {
+                            alert('Event deleted successfully');
+                            $('#eventDetailModal').modal('hide');
+                            calendar.refetchEvents();  // Cập nhật lại lịch
+                        },
+                        error: function (error) {
+                            alert('Error deleting event');
+                        }
+                    });
+                }
+            });
+
+
+            // Hàm chuyển đổi giờ và phút thành 24-hour format
+            function convertTo24Hour(hour, minute, amPm) {
+                hour = parseInt(hour);
+                minute = parseInt(minute);
+                if (amPm === "PM" && hour < 12) {
+                    hour += 12;
+                }
+                if (amPm === "AM" && hour === 12) {
+                    hour = 0;
+                }
+                return `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+            }
+
+            // Xử lý sự kiện submit form
+            $('#availabilityForm').on('submit', function (event) {
+                event.preventDefault();
+                var eventId = $('#editEventId').val();
+
+                var selectedDate = $('#selectedDate').val();
+                var startTimeHour = $('#startTimeHour').val();
+                var startTimeMinute = $('#startTimeMinute').val();
+                var startTimeAmPm = $('#startTimeAmPm').val();
+                var endTimeHour = $('#endTimeHour').val();
+                var endTimeMinute = $('#endTimeMinute').val();
+                var endTimeAmPm = $('#endTimeAmPm').val();
+
+                // Chuyển giờ sang định dạng 24-hour
+                var startTime = convertTo24Hour(startTimeHour, startTimeMinute, startTimeAmPm);
+                var endTime = convertTo24Hour(endTimeHour, endTimeMinute, endTimeAmPm);
+
+                // Kiểm tra thời gian hợp lệ
+                if (startTime >= endTime) {
+                    alert('Start time must be less than end time!');
+                    return;
+                }
+
+                // Gửi AJAX đến server để lưu giờ rảnh
+                $.ajax({
+                    url: '/Interpreters/SaveAvailability',// Đường dẫn đến Controller của bạn
+                    type: 'POST',
+                    data: {
+                        selectedDate: selectedDate,
+                        startTime: startTime, // Giờ bắt đầu dạng 24-hour
+                        endTime: endTime // Giờ kết thúc dạng 24-hour
+                    },
+                    success: function (response) {
+                        alert('Save successfully!');
+                        $('#timePickerModal').modal('hide');
+                        console.log('Event data:', {
+                            id: eventId,
+                            selectedDate: selectedDate,
+                            startTime: startTime,
+                            endTime: endTime
+                        });
+                        calendar.refetchEvents(); // Cập nhật lại lịch với sự kiện mới
+                    },
+                    error: function (error) {
+                        console.error(error);
+                        alert('An error occurred, please try again.');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

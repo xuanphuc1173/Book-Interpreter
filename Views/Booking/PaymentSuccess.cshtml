@@ -1,0 +1,196 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Intercom</title>
+    <link rel="shortcut icon" type="image/png" href="/imgs/logoEXE-v2-removebg-preview.png" />    <!-- font icons -->
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+    <link rel="stylesheet" href="/css/leadmark.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Datetimepicker CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Datetimepicker JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand" asp-action="Home" asp-controller="Home">
+                <img src="/imgs/logoEXE.png" alt="">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    @if (Context.Session.GetInt32("Role") == 0)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-left:100px" asp-action="Home" asp-controller="Home">Back Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-left:100px" asp-action="BookingsByAccountId" asp-controller="Booking" asp-route-accountId="@((int?)Context.Session.GetInt32("AccountId"))">Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="Searchinterpreter" asp-controller="User">Search interpreter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+
+                            <ul class="sub-menu">
+
+                                <li>
+                                    <a asp-controller="EditProfile" asp-action="Index" asp-route-Id="@((int?)Context.Session.GetInt32("AccountId"))">Edit Hồ Sơ</a>
+                                </li>
+                                <li>
+                                    <a asp-controller="ChangePassword" asp-action="ChangePassword" asp-route-Id="@((int?)Context.Session.GetInt32("AccountId"))">Change Password</a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Account" asp-action="Logout">
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    else if (Context.Session.GetInt32("Role") == 1)
+                    {
+                        <partial name="~/Views/Admin/AdminHome.cshtml" />
+
+                    }
+                    else if (Context.Session.GetInt32("Role") == null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-right:250px" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Account/Login" class="ml-4 nav-link btn btn-primary btn-sm rounded">Login</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Second Navigation -->
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h1 class="subtitle">Intercom</h1>
+            <h1 class="title">Global Conversations</h1>
+        </div>
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z" />
+            </svg>
+        </div>
+        <div class="mouse-icon"><div class="wheel"></div></div>
+    </header>
+    <!-- End Of Page Header -->
+    <!-- Search Form Section -->
+    <section class="section">
+        <div style="display: flex; height: 660px">
+
+
+                            <h2 style="font-size:50px;margin:auto;color:green">Payment Success</h2>
+                 
+
+
+            </div>
+    </section>
+    <!-- End of Search Form Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="section has-img-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 my-3">
+                    <h6 class="mb-0">Phone</h6>
+                    <p class="mb-4"> 0999999999</p>
+
+                    <h6 class="mb-0">Address</h6>
+                    <p class="mb-4">12345</p>
+
+                    <h6 class="mb-0">Email</h6>
+                    <p class="mb-0">intercom@gmail.com</p>
+                    <p></p>
+                </div>
+                <div class="col-md-7">
+                    <form>
+                        <h4 class="mb-4">Drop Us A Line</h4>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
+
+                            </div>
+                            <div class="form-group col-12 mb-0">
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Page Footer -->
+            <footer class="mt-5 py-4 border-top border-secondary">
+                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>,Created By Adam Tran </p>
+            </footer>
+            <!-- End of Page Footer -->
+        </div>
+    </section>
+
+
+
+
+    <!-- core  -->
+    <script src="/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope -->
+    <script src="/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="/js/leadmark.js"></script>
+
+</body>
+</html>
